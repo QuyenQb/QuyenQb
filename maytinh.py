@@ -193,7 +193,7 @@ class Ui_MainWindow(object):
         self.Canbachai_Button.setText(_translate("MainWindow", "√2"))
         self.Devide_Button.setText(_translate("MainWindow", "/"))
         self.Motich_Button.setText(_translate("MainWindow", "1/x"))
-        self.Muhai_Button.setText(_translate("MainWindow", "x^2"))
+        self.Muhai_Button.setText(_translate("MainWindow", "^2"))
         self.Button_9.setText(_translate("MainWindow", "9"))
         self.Multiply_Button.setText(_translate("MainWindow", "*"))
         self.Button_7.setText(_translate("MainWindow", "7"))
