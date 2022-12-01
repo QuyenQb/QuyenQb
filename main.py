@@ -23,26 +23,21 @@ class MainWindow:
         self.uic.Button_9.clicked.connect(lambda: self.pressed_it("9"))
         self.uic.Add_Button.clicked.connect(lambda: self.pressed_it("+"))
         self.uic.Minus_Button.clicked.connect(lambda: self.pressed_it("-"))
-        self.uic.Muhai_Button.clicked.connect(lambda: self.pressed_it("^2"))
+        self.uic.Muhai_Button.clicked.connect(lambda: self.pressed_it("**2"))
         self.uic.Percent_Button.clicked.connect(lambda: self.pressed_it("%"))
         self.uic.C_Button.clicked.connect(lambda: self.pressed_it("C"))
         self.uic.Devide_Button.clicked.connect(lambda: self.pressed_it("/"))
-        self.uic.Canbachai_Button.clicked.connect(lambda: self.pressed_it())
+        self.uic.Canbachai_Button.clicked.connect(lambda: self.pressed_it("**(1/2)"))
         self.uic.Multiply_Button.clicked.connect(lambda: self.pressed_it("*"))
         self.uic.CE_Button.clicked.connect(lambda: self.pressed_it("CE"))
-        self.uic.Motich_Button.clicked.connect(lambda: self.pressed_it("1/x"))
+        self.uic.Motich_Button.clicked.connect(lambda: self.pressed_it("1/"))
         self.uic.Plus_Minus_Button.clicked.connect(lambda: self.pressed_Plus_Minus())
         self.uic.Decimal_Button.clicked.connect(lambda: self.pressed_it("."))
         self.uic.Equal_Button.clicked.connect(lambda: self.pressed_Equal())
         self.uic.DEL_Button.clicked.connect(lambda: self.pressed_DEL())
 
 
-    def action_Muhai(self):
-        # appending label text
-        text = self.label.text()
-        self.label.setText(text + " **2 ")
-
-
+    
     #ham tinh toan don gian
     def pressed_Equal(self):
         screen_1 = self.uic.Screen.text()
