@@ -69,9 +69,9 @@ class MainWindow:
     #del tat ca
     def pressed_it(self, pressed):
         if pressed == "C":
-            self.uic.Screen.setText("0")
+            self.uic.Screen.setText("")
         elif pressed == "CE":
-            self.uic.Screen.setText("0")
+            self.uic.Screen.setText("")
         else:
             if self.uic.Screen.text() == "0":
                 self.uic.Screen.setText("")
